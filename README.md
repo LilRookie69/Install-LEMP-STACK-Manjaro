@@ -100,7 +100,7 @@ $cfg['blowfish_secret'] = 'foo';
 ```
 
 ### Import this to mysql databases
->https://github.com/phpmyadmin/phpmyadmin/blob/master/sql/create_tables.sq
+>https://github.com/phpmyadmin/phpmyadmin/blob/master/sql/create_tables.sql
 
 or get from my raw [backup](https://github.com/LilRookie69/Install-LEMP-STACK-Manjaro/blob/main/rawbackup.md)
 
