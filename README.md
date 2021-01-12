@@ -1,6 +1,6 @@
 # How to install LEMP Stack and Valet Linux on Manjaro
 
-Current OS : Manjaro Linux 20.2.1 Nibia
+Current OS : Manjaro Linux 20.2.1 Nibia  
 Kernel : 5.4.85-1
 
 Hope it can be usefull
