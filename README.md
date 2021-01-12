@@ -59,15 +59,15 @@ sudo mysql_secure_installation
 sudo mysql -u root -p
 ```
 #### Create the user
-```shell
+```sql
 CREATE USER 'user'@'%' IDENTIFIED BY 'password';
 ```
 #### Change the user privileges
-```shell
+```sql
 GRANT ALL PRIVILEGES ON *.* TO 'user'@'%';
 ```
 #### Flush the privileges
-```shell
+```sql
 FLUSH PRIVILEGES;
 ```
 
