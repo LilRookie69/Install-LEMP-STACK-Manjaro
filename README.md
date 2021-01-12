@@ -1,5 +1,10 @@
 # How to install LEMP Stack and Valet Linux on Manjaro
 
+Current OS : Manjaro Linux 20.2.1 Nibia
+Kernel : 5.4.85-1
+
+Hope it can be usefull
+
 ## Install Nginx 
 
 ```shell
@@ -97,7 +102,7 @@ $cfg['blowfish_secret'] = 'foo';
 ### Import this to mysql databases
 >https://github.com/phpmyadmin/phpmyadmin/blob/master/sql/create_tables.sq
 
-or get from my raw [backup](http://github.com/lilrookie69)
+or get from my raw [backup](https://github.com/LilRookie69/Install-LEMP-STACK-Manjaro/blob/main/rawbackup.md)
 
 ### Add Symlink to workdirectory of your nginx
 ```shell
