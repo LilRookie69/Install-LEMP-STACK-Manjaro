@@ -29,6 +29,17 @@ sudo systemctl enable php-fpm
 sudo systemctl start php-fpm
 ```
 
+## Install Composer
+[Composer Documentation](https://getcomposer.org/download/)
+
+### Change composer directory path
+simply add it to .bashrc / .zshrc
+```shell
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export CGR_BASE_DIR="$HOME/.config/composer/"
+export CGR_BIN_DIR="$HOME/.config/composer/vendor/bin"
+```
+
 ## Install Database MariaDB
 
 ```shell
@@ -99,25 +110,9 @@ $cfg['TempDir'] = '/tmp';
 $cfg['blowfish_secret'] = 'foo';
 ```
 
-### Import this to mysql databases
->https://github.com/phpmyadmin/phpmyadmin/blob/master/sql/create_tables.sql
-
-or get from my raw [backup](https://github.com/LilRookie69/Install-LEMP-STACK-Manjaro/blob/main/rawbackup.md)
-
 ### Add Symlink to workdirectory of your nginx
 ```shell
 sudo ln -s /usr/share/webapps/phpMyAdmin/ /usr/share/nginx/html/phpmyadmin
-```
-
-## Install Composer
-[Composer Documentation](https://getcomposer.org/download/)
-
-### Change composer directory path
-simply add it to .bashrc / .zshrc
-```shell
-export PATH="$PATH:$HOME/.config/composer/vendor/bin"
-export CGR_BASE_DIR="$HOME/.config/composer/"
-export CGR_BIN_DIR="$HOME/.config/composer/vendor/bin"
 ```
 
 ## Install Laravel Valet
@@ -221,6 +216,11 @@ ex:
 ```shell
 sudo chmod -R ug+rw /usr/share/nginx/html
 ```
+
+## Import this to mysql databases
+>https://github.com/phpmyadmin/phpmyadmin/blob/master/sql/create_tables.sql
+
+or get from my raw [backup](https://github.com/LilRookie69/Install-LEMP-STACK-Manjaro/blob/main/rawbackup.md)
 
 ## Reboot your computer
 ```shell
